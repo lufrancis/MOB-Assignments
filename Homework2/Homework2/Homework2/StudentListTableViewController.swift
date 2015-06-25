@@ -22,7 +22,9 @@ class StudentListTableViewController: UITableViewController {
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
       
         setupStudents()
+        
 
+        
     }
   
     func setupStudents() {
@@ -68,24 +70,29 @@ class StudentListTableViewController: UITableViewController {
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // #warning Potentially incomplete method implementation.
         // Return the number of sections.
-        return 0
+        return 1
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete method implementation.
         // Return the number of rows in the section.
-        return 0
+        return 3
     }
 
-    /*
+    
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath) as! UITableViewCell
 
         // Configure the cell...
 
+
+            cell.textLabel?.text = (studentList[indexPath.row].firstName + " " + studentList[indexPath.row].lastName)
+            
+        
+        
         return cell
     }
-    */
+    
 
     /*
     // Override to support conditional editing of the table view.
@@ -131,5 +138,33 @@ class StudentListTableViewController: UITableViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    func averageScore (row:Int) -> Int {
+        var number = 0
+        var totalScore = 0
+        var avgScore = 0
+        while number < 4 {
+            totalScore = totalScore + studentList[row].scores[number]
+            number++
+        }
+        avgScore = totalScore / 4
+        return avgScore
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        var destinationVC = segue.destinationViewController as! StudentProfileViewController
+        
 
+        
+        if let indexPath = self.tableView.indexPathForSelectedRow() {
+            destinationVC.firstName = studentList[indexPath.row].firstName
+            destinationVC.lastName = studentList[indexPath.row].lastName
+            destinationVC.age = studentList[indexPath.row].age
+            destinationVC.avgScore = averageScore(indexPath.row)
+            if let pNumber = studentList[indexPath.row].phoneNumber {
+            destinationVC.phoneNumber = pNumber
+            }
+            destinationVC.imageurl = studentList[indexPath.row].profilePicURL
+        }
+    }
 }
