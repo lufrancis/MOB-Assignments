@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DBD5187F-2C40-4D5B-A8CE-228ADD2A3BCE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>220E1542E4A6CD7C7E1F98266D7B226F9D65E8AC</key>
+		<string>github.com:ga-students/MOB-HK-1.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Homework/02/Homework2/Homework2.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>220E1542E4A6CD7C7E1F98266D7B226F9D65E8AC</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:ga-students/MOB-HK-1.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>220E1542E4A6CD7C7E1F98266D7B226F9D65E8AC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>220E1542E4A6CD7C7E1F98266D7B226F9D65E8AC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MOB-HK-1%20(course%20materials)</string>
+		</dict>
+	</array>
+</dict>
+</plist>
