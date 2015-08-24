@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>781624D2-CE89-4BBD-AFDD-D6A82ED59B74</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Calc</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>92B7C45CA2E5C582D28046EEE478168C9E00E4AC</key>
+		<string>https://github.com/lufrancis/MOB-Assignments.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Calc/Calc.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>92B7C45CA2E5C582D28046EEE478168C9E00E4AC</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/lufrancis/MOB-Assignments.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>92B7C45CA2E5C582D28046EEE478168C9E00E4AC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>92B7C45CA2E5C582D28046EEE478168C9E00E4AC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MOB%20Assignments</string>
+		</dict>
+	</array>
+</dict>
+</plist>
